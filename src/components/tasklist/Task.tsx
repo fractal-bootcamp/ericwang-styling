@@ -16,7 +16,7 @@ const Task: React.FC<TaskProps> = ({ name, description, checked, index, handleCh
         className='peer relative appearance-none shrink-0 w-6 h-6 border-1 border-gray-200 rounded-lg mt-1 bg-white
         checked:bg-green-600 self-center' 
         checked={checked}
-        onChange={() => handleChecked(index)}
+        onClick={() => handleChecked(index)}
       />
       <article className='flex flex-col'>
         <h3 className='text-xl'>{name}</h3>
