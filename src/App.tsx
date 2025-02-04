@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Tasklist from './pages/tasklist'
 import Messages from './pages/Messages'
+import Post from './pages/Post'
 
 function App() {
 
@@ -11,6 +12,9 @@ function App() {
       </div>
       <div className='h-screen max-w-[1080px] mx-auto flex place-items-center'>
         <Messages />
+      </div>
+      <div className='h-screen max-w-[600px] mx-auto flex place-items-center'>
+        <Post />
       </div>
     </div>
   )
