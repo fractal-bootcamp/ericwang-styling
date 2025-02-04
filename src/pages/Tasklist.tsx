@@ -58,7 +58,7 @@ const Tasklist = () => {
                             name={tasks[Number(key)].name} 
                             description={tasks[Number(key)].description}
                             checked={tasks[Number(key)].checked}
-                            index={key}
+                            index={Number(key)}
                             handleChecked={handleChecked}
                         />
                     )
